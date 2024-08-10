@@ -1,0 +1,12 @@
+name: CMDLoggerIntegration
+version: '${project.version}'
+main: com.infinity.cmdloggerintegration.CMDLoggerIntegration
+api-version: '1.16'
+load: STARTUP
+commands:
+  cmdlogger:
+    description: The main command
+permissions:
+  cmdlogger.staff:
+    description: Makes someone a staff to the plugin
+    default: op
